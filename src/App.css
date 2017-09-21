@@ -9,7 +9,7 @@
 
 .App-header {
   display: flex;
-  background-color: navy;
+  background-color: white;
   height: 150px;
   color: white;
   justify-content: center;
@@ -24,6 +24,7 @@
   height: 400pt;
   align-items: center;
   justify-content: center;
+  background-color: grey;
 }
 
 .tile {

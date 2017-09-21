@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import topscreenlogo from './topscreen.png'
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          Topscreen Media
+          <img src={topscreenlogo}/>
         </div>
         <div className="container"> 
           <a href="https://www.youtube.com/embed/XPVFD5vzXIU?autoplay=1&rel=0" className="tile">
